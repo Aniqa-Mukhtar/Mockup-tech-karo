@@ -1,21 +1,28 @@
 /* write your styles here */
-
 * {
     box-sizing: border-box;
     margin: 0px;
 }
+/* section{
+    background: url('images/floral.png');
+    
+} */
 
 body {
+    
+    
     display: flex;
     flex-direction: column;
 }
 
 marquee {
     background-color: #ed484c;
+   
+    
     line-height: 40px;
     color: white;
     font-weight: bold;
-    display: flex;
+
 }
 
 .disc {
@@ -60,35 +67,29 @@ header ul {
     padding-right: 30px;
 }
 
-#logo {
-    font-size: 30px;
-    color: white;
-    font-weight: 600;
-}
 
 #logo img {
-    height: 35px;
+    height: 40px;
     padding-left: 40px;
-    margin-top: -10px;
-    color: black;
+   
 }
 
 
 /* 1st section Tech karo */
 
 #main {
-    display: flex;
+    
     flex-direction: column;
 }
 
 .intro {
-    background: url('images/floral.png');
+    background: url('images/floral.png'); 
     font-family: 'Source Sans Pro', sans-serif;
     background-color: #f18d97;
 }
 
 .intro h1 {
-    font-size: 5em;
+    font-size: 3.5em;
     font-weight: bold;
 }
 
@@ -97,7 +98,7 @@ header ul {
 
 .intro {
     text-align: center;
-    padding-top: 60px;
+    padding-top: 33px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -132,7 +133,7 @@ header ul {
 /*Our Services 2nd Section */
 
 .box-container {
-    background: url('images/floral.png');
+    background: url('images/floral.png');  
     font-family: 'Lobster Two', cursive;
     background-color: #efece7;
 }
@@ -193,7 +194,7 @@ i.fab.fa-js:hover {
 /* Portfolio 3rd Section*/
 
 #service-portfolio {
-    background: url(images/floral.png);
+    background: url(images/floral.png);  
     font-family: 'Lobster Two', cursive;
     background-color: #ddceb4;
     display: flex;
@@ -251,16 +252,19 @@ figcaption h3 {
 
 .icon span:hover {
     background-color: white;
-}
+} 
 
-.icon span {
+.icon button {
     border: 1px solid;
     border-radius: 100%;
     padding: 10px;
+    max-resolution: 5px;
+    
 }
 
-.icon i:hover {
-    color: black;
+.icon button:hover {
+    background-color: black;
+    color: white;
 }
 
 figure {
@@ -277,14 +281,16 @@ figcaption {
     bottom: 0;
     left: 0;
     right: 0;
-    opacity: -0.5;
+    opacity: 0;
     transition: .3s ease;
     background-color: black;
+    
 }
 
 figure:hover figcaption {
     opacity: 0.8;
     border-radius: 3%;
+   
 }
 
 figure:hover {
@@ -308,10 +314,10 @@ figure:hover {
 }
 
 
-/* contact Section */
+/* 4th section contact */
 
 .contact-container {
-    background: url(images/floral.png);
+    background: url(images/floral.png); 
     font-family: 'Lobster Two', cursive;
     background-color: #afc7c6;
     text-align: center;
@@ -335,7 +341,7 @@ figure:hover {
 
 .socials span {
     padding: 15px;
-    margin: 9px 9px 0px 9px;
+ margin: 9px 9px 0px 9px; 
     border: 1px solid;
     border-radius: 100%;
     font-size: 35px;
@@ -344,13 +350,9 @@ figure:hover {
 .socials span:hover {
     background-color: #212121;
     color: #fcdea6;
-    border: none;
+    
 }
 
-.socials span i:hover {
-    background-color: #212121;
-    color: #fcdea6;
-}
 
 footer {
     background-color: #212121;
@@ -367,7 +369,7 @@ footer:hover i {
 }
 
 
-/* RESPONSIVE CSS */
+/* START RESPONSIVE CSS */
 
 @media screen and (max-width:860px) {
     .service-box {
@@ -515,7 +517,7 @@ footer:hover i {
 }
 
 
-/* Mobile Galaxy View */
+/* Mobile  */
 
 @media screen and (max-width: 370px) {
     body {
