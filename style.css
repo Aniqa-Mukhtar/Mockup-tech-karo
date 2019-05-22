@@ -250,7 +250,7 @@ figcaption h3 {
 
 /* icon hover */
 
-.icon span:hover {
+.icon button:hover {
     background-color: white;
 } 
 
@@ -258,7 +258,7 @@ figcaption h3 {
     border: 1px solid;
     border-radius: 100%;
     padding: 10px;
-    max-resolution: 5px;
+    /* max-resolution: 5px; */
     
 }
 
